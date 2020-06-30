@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="warning">#DCDCDC</color>
+    <color name="colorRadioBtn">#F98C41</color>
+    <color name="colorManualBtn">#1A3544</color>
+    <color name="colorNavigation">#E6E6E6</color>
+</resources>

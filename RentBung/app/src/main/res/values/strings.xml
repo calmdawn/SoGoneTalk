@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">RentBung</string>
+
+
+    <string name="underline"><u>다음에 등록하기</u></string>
+    <string name="underline_pass">PASS</string>
+    <string name="myinfo"><u>개인정보이용</u></string>
+    <string name="processinfo"><u>고유식별정보처리</u></string>
+    <string name="serviceinfo"><u>서비스이용약관</u></string>
+    <string name="useinfo"><u>통신사이용약관</u></string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activit_main"></string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">로그인 하기</string>
+    <string name="nav_header_subtitle">로그인이 필요합니다</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+</resources>

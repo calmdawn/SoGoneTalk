@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout_manual"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@android:color/white">
+
+
+
+    <fragment
+        android:name="com.calmdawnstudio.rentbung.FragManualFirst"
+        android:id="@+id/fragment_manual"
+        android:layout_width="match_parent"
+        android:layout_height="500sp"
+        android:layout_weight="8"
+        />
+
+    <RelativeLayout
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:layout_width="300sp"
+        android:layout_height="40sp"
+        android:layout_weight="1">
+
+        <ImageView
+            android:id="@+id/imageView_round1"
+            android:layout_width="15sp"
+            android:layout_height="15sp"
+            android:layout_marginRight="15sp"
+            android:background="@drawable/round_customizing_darkblue"
+            />
+
+        <ImageView
+            android:id="@+id/imageView_round2"
+            android:layout_toRightOf="@id/imageView_round1"
+            android:layout_width="15sp"
+            android:layout_height="15sp"
+            android:layout_marginRight="15sp"
+            android:background="@drawable/round_customizing_orange"/>
+        <ImageView
+            android:id="@+id/imageView_round3"
+            android:layout_toRightOf="@id/imageView_round2"
+            android:layout_width="15sp"
+            android:layout_height="15sp"
+            android:layout_marginRight="15sp"
+            android:background="@drawable/round_customizing_orange"/>
+        <ImageView
+            android:id="@+id/imageView_round4"
+            android:layout_toRightOf="@id/imageView_round3"
+            android:layout_width="15sp"
+            android:layout_height="15sp"
+            android:layout_marginRight="15sp"
+            android:background="@drawable/round_customizing_orange"/>
+        <ImageView
+            android:id="@+id/imageView_round5"
+            android:layout_toRightOf="@id/imageView_round4"
+            android:layout_width="15sp"
+            android:layout_height="15sp"
+            android:layout_marginRight="15sp"
+            android:background="@drawable/round_customizing_orange"/>
+
+        <ImageView
+            android:id="@+id/imageView_round6"
+            android:layout_toRightOf="@id/imageView_round5"
+            android:layout_width="15sp"
+            android:layout_height="15sp"
+            android:background="@drawable/round_customizing_orange"/>
+
+
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/button_manual"
+        android:layout_width="match_parent"
+        android:layout_height="60sp"
+        android:background="@color/colorManualBtn"
+        android:layout_weight="1"
+        android:text="다음"
+        android:textSize="30sp"
+        android:textColor="@color/colorRadioBtn"
+        android:textStyle="bold"/>
+
+</LinearLayout>

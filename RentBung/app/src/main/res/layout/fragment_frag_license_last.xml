@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="300sp"
+    android:layout_height="250sp"
+    android:orientation="vertical"
+    android:background="@drawable/imagelines"
+
+    tools:context=".FragLicenseLast">
+
+
+    <TextView
+        android:layout_width="200sp"
+        android:layout_height="40sp"
+        android:layout_weight="1"
+        android:layout_marginTop="20sp"
+        android:layout_marginBottom="20sp"
+        android:layout_gravity="center"
+        android:text="주민등록번호 뒷자리는 가려주세요"
+        android:textColor="@android:color/black"
+        android:textSize="12sp"
+        android:gravity="center"/>
+
+    <ImageView
+        android:layout_width="200sp"
+        android:layout_height="300sp"
+        android:layout_weight="10"
+        android:layout_gravity="center"
+        android:layout_marginBottom="20sp"
+        android:src="@drawable/photo_license"
+        android:scaleType="fitCenter"/>
+
+    <TextView
+        android:layout_width="200sp"
+        android:layout_height="35sp"
+        android:layout_weight="1"
+        android:layout_gravity="center"
+        android:layout_marginBottom="15sp"
+        android:text="가리지 않고 등록 시 승인되지 않습니다"
+        android:textSize="10sp"
+        android:textColor="@android:color/black"
+        android:gravity="center"/>
+
+    <RelativeLayout
+        android:layout_width="300sp"
+        android:layout_height="60sp"
+        android:layout_weight="1"
+        android:layout_marginBottom="15sp"
+        android:gravity="center"
+        >
+
+        <Button
+            android:id="@+id/button_gallery"
+            android:layout_width="80sp"
+            android:layout_height="35sp"
+            android:layout_marginRight="20sp"
+            android:text="앨범"
+            android:textSize="12sp"
+            android:textColor="@android:color/black"
+            android:gravity="center"
+            android:textStyle="bold"/>
+
+        <Button
+            android:id="@+id/button_camera"
+            android:layout_width="80sp"
+            android:layout_height="35sp"
+            android:layout_toRightOf="@id/button_gallery"
+            android:text="카메라"
+            android:textSize="12sp"
+            android:textColor="@android:color/black"
+            android:gravity="center"
+            android:textStyle="bold"/>
+
+
+    </RelativeLayout>
+
+
+</LinearLayout>
