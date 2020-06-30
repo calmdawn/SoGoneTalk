@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.sogonetalk">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name="com.example.sogonetalk.GroupMessageActivity"></activity>
+        <activity android:name="com.example.sogonetalk.SelectFriendActicity" />
+        <activity android:name="com.example.sogonetalk.MessageActivity" />
+
+        <service android:name="com.example.sogonetalk.MyFirebaseMessagingService">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+
+        <activity android:name="com.example.sogonetalk.ChatModel" />
+        <activity android:name="com.example.sogonetalk.UserModel" />
+        <activity android:name="com.example.sogonetalk.SplashActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.example.sogonetalk.MyFirebaseMessagingService" />
+        <activity android:name="com.example.sogonetalk.SignupActivity" />
+        <activity android:name="com.example.sogonetalk.LoginActivity" />
+        <activity android:name="com.example.sogonetalk.MainActivity" />
+    </application>
+
+</manifest>

@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/send_paper"
+    tools:context=".MainActivity">
+
+    <TextView
+    android:id="@+id/mainactivity_title"
+    android:layout_width="320dp"
+    android:layout_height="60dp"
+    android:textSize="30dp"
+    android:textStyle="bold"
+    android:layout_margin="5dp"/>
+
+    <Button
+        android:id="@+id/mainactivity_gruop_chat_button"
+        android:layout_toRightOf="@id/mainactivity_title"
+        android:layout_width="80dp"
+        android:layout_height="50dp"
+        android:background="@drawable/group_chat"
+       />
+
+    <TextView
+        android:id="@+id/group_chat_textview"
+        android:gravity="center"
+        android:layout_below="@id/mainactivity_gruop_chat_button"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:text="그룹채팅방생성"
+        android:textSize="12dp"
+        android:textStyle="bold"
+        android:layout_marginTop="5dp"
+        android:layout_toRightOf="@id/mainactivity_title"/>
+
+
+<FrameLayout
+    android:id="@+id/mainactivity_framelayout"
+    android:layout_width="wrap_content"
+    android:layout_height="500dp"
+    android:layout_alignParentLeft="true"
+    android:layout_alignParentRight="true"
+    android:layout_below="@id/mainactivity_title"
+    />
+
+
+
+    <LinearLayout
+        android:id="@+id/activity_main_icon_layout"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:orientation="horizontal"
+        android:layout_above="@id/activity_main_text_layout">
+
+        <Button
+            android:id="@+id/people_button"
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/friends"
+             />
+
+        <Button
+            android:id="@+id/chat_button"
+            android:layout_height="match_parent"
+            android:layout_width="70dp"
+            android:background="@drawable/chat_room"
+
+            android:layout_weight="1"/>
+
+        <Button
+            android:id="@+id/account_button"
+            android:layout_height="match_parent"
+            android:layout_width="70dp"
+            android:background="@drawable/profile"
+
+            android:layout_weight="1"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/activity_main_text_layout"
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="10dp"
+        >
+
+        <TextView
+            android:gravity="center"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="친구목록"
+            android:textStyle="bold"
+            android:layout_weight="1"/>
+
+        <TextView
+            android:gravity="center"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:icon="@drawable/ic_launcher_background"
+            android:text="채팅방목록"
+            android:textStyle="bold"
+            android:layout_weight="1"/>
+
+        <TextView
+            android:gravity="center"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:icon="@drawable/ic_launcher_background"
+            android:text="프로필설정"
+            android:textStyle="bold"
+            android:layout_weight="1"/>
+
+    </LinearLayout>
+
+
+
+</RelativeLayout>

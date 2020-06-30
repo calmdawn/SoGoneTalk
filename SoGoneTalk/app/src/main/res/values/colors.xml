@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+
+    <color name="colorMyMessage">#FDFABD</color>
+    <color name="colorYouMessage">#D4FAFF</color>
+
+
+    <color name="sendBtn">#BFFF8BA4</color>
+    <color name="sendBtnText">#FFFFFF</color>
+
+</resources>

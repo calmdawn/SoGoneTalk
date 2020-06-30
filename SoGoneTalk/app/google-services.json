@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "93293863465",
+    "firebase_url": "https://sogonetalk-6e2ed.firebaseio.com",
+    "project_id": "sogonetalk-6e2ed",
+    "storage_bucket": "sogonetalk-6e2ed.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:93293863465:android:d5fb4db6707a4462177238",
+        "android_client_info": {
+          "package_name": "com.example.sogonetalk"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "93293863465-r0cn6lpn0ocm0opc815opj29spjvfu21.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.sogonetalk",
+            "certificate_hash": "dde09d988c2cd863183f49d643da6d9001d2b112"
+          }
+        },
+        {
+          "client_id": "93293863465-mcjdeboudsmkc35l2bubbcra2igs2p8l.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAGm5NIXaUWvO9Ghz29Q86v1oMu1sIwIQc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "93293863465-mcjdeboudsmkc35l2bubbcra2igs2p8l.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/send_paper"
+    tools:context=".LoginActivity">
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/snow_man" />
+
+        <EditText
+            android:layout_marginTop="20dp"
+            android:id="@+id/loginActivity_edittext_id"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:hint="아이디" />
+
+        <EditText
+            android:layout_marginTop="10dp"
+            android:id="@+id/loginActivity_edittext_password"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:inputType="textPassword"
+            android:hint="패드워드" />
+
+
+    <Button
+        android:text="로그인"
+        android:layout_marginTop="20dp"
+        android:id="@+id/loginActivity_button_login"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:background="@color/sendBtn"
+        android:textColor="@color/sendBtnText"
+        android:textStyle="bold"
+        android:textSize="20dp"
+       />
+
+    <Button
+
+        android:layout_marginTop="20dp"
+        android:text="회원가입"
+        android:id="@+id/loginActivity_button_signup"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:textColor="@color/sendBtnText"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:background="@color/sendBtn"
+        />
+
+</LinearLayout>
